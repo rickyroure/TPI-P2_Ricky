@@ -3,9 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package tp.integrador.Models;
+package Models;
 
-import tp.integrador.Estado;
+import Main.Estado;
 
 /**
  *

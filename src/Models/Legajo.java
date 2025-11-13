@@ -3,9 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
-package tp.integrador.Models;
-
-import tp.integrador.Estado;
+package Models;
+import Main.Estado;
 
 /**
  *
@@ -22,7 +21,7 @@ public class Legajo {
     // constructor
     public Legajo() {}
 
-    public Legajo(Long id, String nroLegajo, Boolean eliminado, String categoria,
+    public Legajo(String nroLegajo, Boolean eliminado, String categoria,
                   Estado estado, java.time.LocalDate fechaAlta, String observaciones) {
 
         this.nroLegajo = nroLegajo;

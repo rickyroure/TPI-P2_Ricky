@@ -5,15 +5,15 @@
 
 package DAO;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.List;
-
-
 /**
  *
  * @author Giuliano Scaglioni
  */
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
 public interface GenericDAO<T> {
     void crear(T entidad, Connection conn) throws SQLException;
     T leerPorId(String id, Connection conn) throws SQLException;
